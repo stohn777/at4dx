@@ -69,15 +69,4 @@ public class ApplicationSObjectDomainDIModule
             to(bindingConfig.To__c);
         }
     }
-
-    /********************************************************
-     *  Testing functionality
-    ********************************************************/
-    private static List<ApplicationFactory_DomainBinding__mdt> mockBindingRecords = null;
-
-    @TestVisible
-    private static void setMock(List<ApplicationFactory_DomainBinding__mdt> mocks)
-    {
-        mockBindingRecords = mocks;
-    }
 }
